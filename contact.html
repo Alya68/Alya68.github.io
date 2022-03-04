@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title >ALYA KHAIRUNNISA</title>
+	<link rel="stylesheet"href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+</head>
+<body>
+	<!-- loader -->
+	<div class="bg-loader">
+		<div class="loader"></div>
+	</div>
+
+	<!-- header -->
+	<header>
+		 <div class="container">
+				<ul>
+					<B><li ><a href="index.html">HOME</a></li></B>
+					<B><li ><a href="about.html">ABOUT ME</a></li></B>
+					<B><li><a href="galerry.html">GALERRY</a></li></B>
+					<B><li class="active"><a href="contact.html">CONTACT ME</a></li></B>
+				</ul>		
+			</div>	
+	</header>
+
+    <section class="contact">
+        <h3 align="center">CONTACT ME </h3><br>
+          <div id="form">
+            <form action="">
+                <label for="fname">Name </label>
+                <input type="text" id="fname" name="firstname" placeholder="Your name..">
+        
+                <label for="email">Email</label>
+                <input type="text" id="lname" name="email" placeholder="Your email..">
+        
+                <label for="country">Country</label>
+                <select id="country" name="country">
+                <option value="Indonesia">Indonesia</option>
+                <option value="Singapura">Singapura</option>
+                <option value="Turki">Turki</option>
+                <option value="Korea">Korea</option>
+                <option value="Jepang">Jepang</option>
+                <option value="Belanda">Belanda</option>
+                </select>
+        
+                <label for="pesan">Message </label>
+                <input type="text" id="lname" name="lastname" placeholder="Your Message for me..">
+            
+                <input type="submit" value="Submit">
+            </form>
+            </div>
+        </section>
+
+        <!-- footer -->
+	<footer>
+        <div class="footer">
+        <small>Copyright &copy; 2022 -ALYA KHAIRUNNISA . Universitas Malikussaleh.</small>
+        </div>
+    </footer>
+    
+    
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $(".bg-loader").hide();
+        })
+            </script>
+    
+        
+    </body>
+    </html>
